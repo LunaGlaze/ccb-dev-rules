@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCB DEV Rules"
+  short_description: "开发 Cataclysm: Cleanwater Bomb 的必读基本规则"
+  default_prompt: "必须遵从 $ccb-dev-rules 的规范进行开发，请在开始会话时或开始行动前了解本skill基本要求。"
+
+policy:
+  allow_implicit_invocation: true

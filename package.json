@@ -1,0 +1,25 @@
+{
+  "name": "ccb-dev-rules",
+  "version": "1.0.0",
+  "description": "在 Cataclysm Cleanwater Bomb 项目中工作的基本流程于规章制度，开发流程需以本Skill为准；智能体必须开始任何工作前首先阅读，并按任务读取 references 中的专项规范。",
+  "main": "SKILL.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LunaGlaze/ccb-dev-rules.git"
+  },
+  "keywords": [
+    "ai",
+    "ccb",
+    "cwb",
+    "cataclysm",
+    "prompt",
+    "skill",
+    "agent",
+    "claude-code",
+    "codex",
+    "antigravity",
+    "workbuddy"
+  ],
+  "author": "LunaGlaze",
+  "license": "MIT"
+}
