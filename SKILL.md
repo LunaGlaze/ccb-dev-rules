@@ -1,6 +1,6 @@
 ---
 name: ccb-dev-rules
-description: 在 Cataclysm Cleanwater Bomb 项目中工作的基本流程于规章制度，开发流程需以本Skill为准；智能体必须开始任何工作前首先阅读，并按任务读取 references 中的专项规范。
+description: 本技能为在 Cataclysm Cleanwater Bomb 项目中工作的基本流程于规章制度，开发流程需以本Skill为准；智能体必须开始任何工作前首先调用、阅读，并按任务读取 references 中的专项规范。
 version: 1.0.0
 author: LunaGlaze
 license: MIT
@@ -26,13 +26,15 @@ license: MIT
 工作流程请遵循下列规范或参考条例。除skill入口明确列出的内容外， `references/` 也已按任务主题列出需要遵循的规范。开始相应工作前先阅读对应文件，规范中的流程**必须**结合当前仓库状态和具体需求执行：
 
  - 为保证项目国际化需求，包括代码/物品信息/核心仓库内文档更新/git提交等实际写入仓库的内容必须以**英文**为准；与用户交流则以用户使用语言为准；不要把沟通语言要求误用为改变游戏文本或源文件语言的依据。
- - 不得移除任何文件末位的单行空行，这是仓库代码格式规范的强制要求。
- - [CodeDeAI](references/CodeDeAI.md)：任何需要编辑c++和lua的工作都应首先阅读并遵守，包含需要遵循的代码风格、避免代码AI味、去过度工程化和极端防御性编程等要求。
- - [DocDeAI](references/DocDeAI.md)：新增或修改面任何文档、PR 文案、提交说明或注释应遵守的基本规范。
- - [CodeReview](references/CodeReview.md)：代码审查或 PR review。
- - [PortingWork](references/PortingWork.md)：移植性工作，例如从 C:DDA 或其他项目移植代码与数据；也包含本仓库内的不同mod模块间的数据迁移。
+ - 不得移除任何文件末位的单行空行，这是仓库代码格式规范的强制要求；新建文件时也应在文件末尾保留一行空行。
+ - [CodeDeAI](references/CodeDeAI.md)：任何需要编辑c++和lua的工作都必须首先阅读并遵守的**基本规范**，包含需要遵循的代码风格、避免代码AI味、去过度工程化和极端防御性编程等要求。
+ - [DocDeAI](references/DocDeAI.md)：新增或修改面任何文档、PR 文案、提交说明或注释都必须遵守的**基本规范**。
+ - [CodeReview](references/CodeReview.md)：进行代码审查或 PR review前，**必须阅读**。
+ - [PortingWork](references/PortingWork.md)：进行移植性工作，例如从 C:DDA 或其他项目移植代码与数据（也包含本仓库内的不同mod模块间的数据迁移）前**必须阅读**。
  - [ModSupport](references/ModSupport.md)：与mod相关的支持边界和维护范围，例如遇到与mod相关的报错时/需要区分第一方与第三方mod时请进行阅读。
- - [PRDraft](references/PRDraft.md)：起草、编辑、整理或发起PR。
+ - [PRDraft](references/PRDraft.md)：执行起草、编辑、整理或发起PR相关工作前**必须阅读**。
+
+以上文档在要求应该阅读的场合**必须首先进行读取**，并将其作为核心原则遵从；如果记忆或上下文中没有要求的文档，**必须**停下手中的任何工作，只在阅读理解完要求的文档后才能执行除阅读必要规章以外的任何操作。
 
 ### 目录规则与权威来源
 
